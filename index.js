@@ -6,11 +6,13 @@ $('#buttonyes').click(function(){
 
 $('#buttonno').click(function(){
     versteckeKlassen();
-    $('#imgno').removeClass();
-    $('#imgno').addClass('imgshow');
+    $('#imgyes').removeClass();
+    $('#imgyes').addClass('imgshow');
 });
 
 var versteckeKlassen = function(){
-    $('#imgno').css('display', 'none');
-    $('#imgno').css('display', 'none');
+    $('#imgyes').removeClass();
+    $('#imgyes').addClass('imggone');
+    $('#imgno').removeClass();
+    $('#imgno').addClass('imggone');
 };
