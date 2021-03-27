@@ -2,14 +2,14 @@ $('#buttonyes').click(function(){
     versteckeKlassen();
     //alert("Click yes!");
     $('#imgno').removeClass();
-    $('#imgno').addClass('imgshow');
+    $('#imgno').addClass('imgshow img-fluid');
 });
 
 $('#buttonno').click(function(){
     versteckeKlassen();
     //alert("Click no!");
     $('#imgyes').removeClass();
-    $('#imgyes').addClass('imgshow');
+    $('#imgyes').addClass('imgshow img-fluid');
 });
 
 var versteckeKlassen = function(){
